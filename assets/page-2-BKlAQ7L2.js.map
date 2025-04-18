@@ -1,0 +1,1 @@
+{"version":3,"file":"page-2-BKlAQ7L2.js","sources":["../../src/scripts/page-2.js"],"sourcesContent":["function foo() {\n    return \"foo\";\n}\n   \nexport { foo };"],"names":["foo"],"mappings":"ssBAAA,SAASA,GAAM,CACX,MAAO,KACX"}
