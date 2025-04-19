@@ -31,6 +31,8 @@ export { makeMessage1, levels, userName };
 
 const userName = "Hoolala";
 
+// Імпорт простору імен - export цілого файлу з helper.js до main.js
+
 export const name = "Mango";
 export const age = 26;
 export const email = "mango@mail.com";

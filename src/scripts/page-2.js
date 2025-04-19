@@ -2,4 +2,4 @@ function foo() {
     return "foo";
 }
    
-export { foo };
+export default foo ;
