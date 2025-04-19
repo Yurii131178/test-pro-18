@@ -34,6 +34,29 @@ main:has(.back-link) {
 h1 {
   color: tomato;
   align-items: center;
-  font-size: 450px;
-  margin-left: 100px;
+}
+
+.alert {
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  transform: translateX(100%);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.alert.success {
+  border: 1px solid #388e3c;
+  background-color: #388e3c;
+  color: #fff;
+}
+
+.alert.is-visible {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
 }

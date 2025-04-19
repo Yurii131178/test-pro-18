@@ -1,3 +1,9 @@
+
+
+// ===============Модульність коду===================  //
+
+
+
 import jojoba from "./scripts/helper";
 console.log(jojoba(3, 5, 50)); // при дефолтному імпорті (add) змінну можна називати як завгодно (jojoba)(яблуко в коробці)
 
@@ -34,3 +40,5 @@ console.log(jojoba1());
 
 import { nanoid } from 'nanoid'
 console.log(nanoid()); // генератор випадкових ключів // tlIh6d_Y-2ZBUKnWdDIl8 // JnzXCO-sTGC-14CUJ0HjO // vtsewqJh_RI22GsGwKko-
+
+//============== Aсинхронний JS ======================= //

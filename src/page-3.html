@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 3</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./scripts/async.js"></script>
   </head>
   <body>
     <load
@@ -13,12 +14,16 @@
       icon-path="./img/sprite.svg#logo"
       highlight-curr="active"
     />
+    <button type="button" class="btn js-set">Set timeout</button>
+    <button type="button" class="btn js-clear">Clear timeout</button>
 
     <main>
       <div class="container">
         <h1 class="main-title">
-          <span class="main-title-gradient">Welcome</span> to page 3
+          <span class="main-title-gradient">Aсинхронний JS</span> проміси,
+          промісифікація і обробка множинних промісів + задачка
         </h1>
+        <p class="alert success js-alert">Success!</p>
         <load src="./partials/back-link.html" />
       </div>
     </main>
