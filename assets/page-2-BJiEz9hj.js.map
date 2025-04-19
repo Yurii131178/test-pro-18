@@ -1,0 +1,1 @@
+{"version":3,"file":"page-2-BJiEz9hj.js","sources":["../../src/scripts/page-2.js"],"sourcesContent":["function foo() {\n    return \"foo\";\n}\n   \nexport default foo ;"],"names":["foo"],"mappings":"AAAA,SAASA,GAAM,CACX,MAAO,KACX"}
