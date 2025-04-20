@@ -165,7 +165,7 @@ function hideNotification() {
     // NOTIFICATION_DELAY)
 
 
-
+///////////////===========PROMISE============///////////////////
 
  
 
